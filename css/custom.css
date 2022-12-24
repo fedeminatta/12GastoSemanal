@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+body {
+	background: #000428; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #004e92, #000428);
+	background: linear-gradient(to right, #004e92, #000428);
+}
+header {
+	margin: 30px 0;
+}
+.contenido {
+	padding: 20px;
+}
+.contenido-principal {
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+}
+.presupuesto p {
+	margin-bottom: 0;
+	font-weight: bold;
+}
+.presupuesto p span {
+	font-weight: normal;
+}
+#gastos {
+	margin-bottom: 30px;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: white;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #004e92;
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+
+.bg-info {
+	background: #fff;
+	border: none;
+	border-bottom: solid rgb(34, 67, 139);
+	border-top: solid rgb(34, 67, 139);
+}
+
+.badge {
+	padding: 10px;
+}
